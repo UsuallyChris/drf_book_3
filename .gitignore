@@ -6,10 +6,10 @@ frontend/.pnp
 .pnp.js
 
 # testing
-/coverage
+frontend/coverage
 
 # production
-/build
+frontend/build
 
 # misc
 .DS_Store
@@ -18,6 +18,6 @@ frontend/.pnp
 .env.test.local
 .env.production.local
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
