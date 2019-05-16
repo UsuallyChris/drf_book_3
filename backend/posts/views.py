@@ -9,11 +9,9 @@ class PostList(generics.ListCreateAPIView):
     """ Post collection API endpoint """
     queryset = Post.objects.all()
     serializer_class = PostSerializer
-    permission_classes = (permissions.IsAuthenticated,)
 
 
 class PostDetail(generics.RetrieveUpdateDestroyAPIView):
     """ Singe Post endpoint """
     queryset = Post.objects.all()
     serializer_class = PostSerializer
-    permission_classes = (permissions.IsAuthenticated,)
