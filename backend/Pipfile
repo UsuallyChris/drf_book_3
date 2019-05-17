@@ -12,6 +12,8 @@ pylint-django = "*"
 autopep8 = "*"
 djangorestframework = "*"
 django-rest-auth = "*"
+django-alluth = "*"
+django-allauth = "*"
 
 [requires]
 python_version = "3.7"
